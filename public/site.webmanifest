@@ -1,0 +1,16 @@
+{
+  "name": "Velve",
+  "short_name": "Velve",
+  "description": "Fashion exchange mobile app coming soon.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6F8ED",
+  "theme_color": "#F6F8ED",
+  "icons": [
+    {
+      "src": "/velve-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
