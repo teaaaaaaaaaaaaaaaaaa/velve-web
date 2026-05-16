@@ -1,0 +1,20 @@
+You're on the list for Velve
+
+Hi {{FIRST_NAME}},
+
+Your spot on the Velve waitlist is confirmed.
+
+Position: #{{POSITION}}
+Signed up on: {{SIGNED_UP_AT}}
+
+Velve is a mobile app for building your closet, discovering pieces that fit your taste,
+and making trade or buy offers inside a community built on trust.
+
+When access opens, you'll hear from us.
+If we email before that, it will be because there's a real product update worth sending.
+
+Questions:
+{{INFO_EMAIL}}
+
+Velve
+Closets, discovery, and trusted fashion exchange

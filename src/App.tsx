@@ -85,7 +85,6 @@ export default function App() {
         <section className="landing-card" aria-label="Velve coming soon">
           <div className="copy-wrap">
             <h1 ref={logoRef} className="logo-h1">Velve</h1>
-            <p ref={subRef} className="coming-soon">fashion exchange mobile app is coming soon.</p>
             <p className="support-copy">
               Join the waitlist for Velve, an upcoming mobile app for fashion exchange.
             </p>

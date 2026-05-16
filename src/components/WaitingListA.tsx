@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { gsap } from 'gsap'
 
-const START_COUNT = 1_247
+const START_COUNT = 200
 const API_URL = resolveApiBaseUrl(import.meta.env.VITE_API_URL as string | undefined)
 
 type Props = {

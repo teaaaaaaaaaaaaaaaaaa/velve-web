@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <title>You're on the list for Velve</title>
+    <style>
+      body,
+      table,
+      td,
+      p,
+      a {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      img {
+        border: 0;
+        outline: none;
+        text-decoration: none;
+        display: block;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      @media screen and (max-width: 640px) {
+        .shell {
+          width: 100% !important;
+        }
+
+        .pad {
+          padding-left: 24px !important;
+          padding-right: 24px !important;
+        }
+
+        .hero-copy {
+          font-size: 28px !important;
+          line-height: 34px !important;
+        }
+
+        .position {
+          font-size: 46px !important;
+          line-height: 50px !important;
+        }
+      }
+    </style>
+  </head>
+  <body style="margin:0; padding:0; background-color:#0f0d10; color:#f5f1e8;">
+    <div style="display:none; max-height:0; overflow:hidden; opacity:0;">
+      Your waitlist spot is confirmed. We'll email you when access opens.
+    </div>
+
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0f0d10;">
+      <tr>
+        <td align="center" style="padding:32px 16px;">
+          <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" class="shell" style="width:640px; max-width:640px;">
+            <tr>
+              <td
+                class="pad"
+                style="padding:28px 40px 18px; border:1px solid #2f2430; border-bottom:none; background:linear-gradient(180deg, #18131a 0%, #120f12 100%);"
+              >
+                <img
+                  src="https://www.velveapp.com/velve-wordmark.png"
+                  alt="Velve"
+                  width="210"
+                  style="width:210px; max-width:100%; height:auto;"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                class="pad"
+                style="padding:0 40px 40px; border:1px solid #2f2430; border-top:none; background:linear-gradient(180deg, #18131a 0%, #120f12 100%);"
+              >
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td style="padding:14px 0 0; font-size:12px; line-height:18px; letter-spacing:2px; text-transform:uppercase; color:#cdd86d;">
+                      Waitlist Confirmed
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="hero-copy" style="padding:14px 0 0; font-size:40px; line-height:46px; font-weight:700; color:#f8f4ec;">
+                      You're in.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:16px 0 0; font-size:16px; line-height:26px; color:#d7d0d9;">
+                      Hi {{FIRST_NAME}},
+                      <br /><br />
+                      Your spot on the Velve waitlist is confirmed. Velve is a mobile app for building your closet,
+                      discovering pieces that fit your taste, and making trade or buy offers inside a community built on trust.
+                      We'll reach out when access opens, or sooner only if there's a real product update worth sending.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:28px 0 0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #3f3143; background-color:#1a141b;">
+                        <tr>
+                          <td style="padding:24px 24px 10px; font-size:11px; line-height:16px; letter-spacing:2px; text-transform:uppercase; color:#9dd3e4;">
+                            Your Position
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="position" style="padding:0 24px 4px; font-size:58px; line-height:62px; font-weight:700; color:#f8f4ec;">
+                            #{{POSITION}}
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="padding:0 24px 24px; font-size:14px; line-height:22px; color:#b7aeb8;">
+                            Signed up on {{SIGNED_UP_AT}}
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:28px 0 0; font-size:16px; line-height:26px; color:#d7d0d9;">
+                      What to expect:
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:10px 0 0; font-size:15px; line-height:24px; color:#d7d0d9;">
+                      1. The waitlist will matter if access opens in waves.
+                      <br />
+                      2. We will keep updates low-volume and useful.
+                      <br />
+                      3. Questions can go straight to <a href="mailto:{{INFO_EMAIL}}" style="color:#9dd3e4; text-decoration:underline;">{{INFO_EMAIL}}</a>.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:32px 0 0; font-size:14px; line-height:24px; color:#d7d0d9;">
+                      Velve
+                      <br />
+                      Closets, discovery, and trusted fashion exchange
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="pad" style="padding:18px 40px 0; font-size:12px; line-height:20px; color:#8d8591; text-align:left;">
+                You're receiving this because you joined the Velve waitlist.
+                <br />
+                Sent from noreply@velveapp.com. Questions: info@velveapp.com
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
